@@ -6,24 +6,54 @@
   background-color: #253141;
   width: 300px;
   height: 100vh;
+  
 }
 
 .side-bar-header {
-  background-color: #253141;
   height: 100px;
-  padding:0px 20px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create-room a {
+  font-size:10px;
+}
+
+.create-room a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+.header-name a {
+  color: #fafafa;
+  font-size:16px;
+  text-decoration: none;
 }
 
 .rooms {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding:0px 20px;
+  overflow: scroll
+  
+}
+
+.room {
+  padding:20px 0px 40px;
+}
+
+.room a {
+  color:white;
 }
 
 .main-bar {
   background-color: #ffffff;
-  width:calc(100vw - 300px);
-  padding:0px 40px;
+  width:calc(100% - 300px);
+  
 }
 
 .header {
@@ -35,7 +65,7 @@
 .messages {
   background-color: #fafafa;
   height: calc(100vh - 190px);
-  padding:40px 46px 20px;
+  padding:46px 40px 0px;
 
 
 }
@@ -43,5 +73,5 @@
 .form {
   background-color: #dddddd;
   height:90px;
-  padding:20px 0 ;
+  padding:20px 40px ;
 }
