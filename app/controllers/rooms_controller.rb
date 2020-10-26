@@ -10,7 +10,10 @@ class RoomsController < ApplicationController
     else
       render :new
     end
-end
+
+    def index
+    end
+ end
 
 private
 
